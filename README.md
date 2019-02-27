@@ -28,4 +28,4 @@ Error: dyld shared cache code signature for page 0 is incorrect.
 dyld_shared_cache_extract_dylibs_progress() => -1
 ```
 
-So the [dsc_extractor.bundle]() is the Xcode9 version.
+So the [dsc_extractor.bundle](https://github.com/madordie/dsc_extractor/blob/master/dsc_extractor.bundle) is the Xcode9 version.
