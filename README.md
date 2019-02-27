@@ -29,3 +29,9 @@ dyld_shared_cache_extract_dylibs_progress() => -1
 ```
 
 So the [dsc_extractor.bundle](https://github.com/madordie/dsc_extractor/blob/master/dsc_extractor.bundle) is the Xcode9 version.
+
+## How to get dyld_shared_cache_arm64
+
+- Obtained through iPhone firmware. Such as: https://ipsw.me/
+- Obtained through jailbroken equipment. The path: `/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64`
+ 
