@@ -1808,7 +1808,7 @@ arm64
 
 # Tips
 
-## Can't work on Xcode10
+## `dsc_extractor.bundle` Can't work on Xcode10
 
 On Apple Developer Forums:[dyld_shared_cache_extract_dylibs failed](https://forums.developer.apple.com/thread/108917).
 
@@ -1820,7 +1820,7 @@ Error: dyld shared cache code signature for page 0 is incorrect.
 dyld_shared_cache_extract_dylibs_progress() => -1
 ```
 
-So the [dsc_extractor.bundle](https://github.com/madordie/dsc_extractor/blob/master/dsc_extractor.bundle) is the Xcode9 version.
+**So the [dsc_extractor.bundle](https://github.com/madordie/dsc_extractor/blob/master/dsc_extractor.bundle) is the Xcode9 version.**
 
 And [modify](https://github.com/madordie/dyld/commit/265727c18666f034c76e28706070fae04377eb82) the `./dyld/launch-cache/dsc_extractor.cpp`
 
